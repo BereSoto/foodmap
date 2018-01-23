@@ -1,9 +1,9 @@
 $(document).ready(function() {
   // Efecto splash
-  $('#homePage').hide();
+  $('#home').hide();
   setTimeout(function() {
     $('#brand').fadeOut(500);
-    $('#homePage').show();
+    $('#home').show();
   }, 3000);
 
   /*Filtrar lugares*/
